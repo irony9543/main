@@ -1,0 +1,13 @@
+package interfaceEx;
+import interfaceEx.Test;
+public class PTest {
+
+	public static void main(String[] args) {
+		Test pt= new Test();
+		String name= "홍길동";
+		int age= 500;
+		System.out.println(name+","+age);
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package B;
+
+public class Test1 {
+
+	Test t= new Test();
+}

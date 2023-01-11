@@ -1,0 +1,21 @@
+package singleton;
+
+public class Company {
+   private static Company instance = null;
+   private static int count= 0;	
+	
+   //private static Company instance;
+   private Company() {}
+
+   //public void md() {System.out.println("md()메소드입니다.");}
+   
+   public static Company getInstance() {
+	   if(instance==null) {
+		   instance= new Company();
+	   }
+       //count++;	   
+       //System.out.println(count);
+	   return instance;
+   }
+
+}

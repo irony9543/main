@@ -1,0 +1,18 @@
+package interfaceEx;
+
+interface PaTest{
+	public static final String KIND= "사람";
+	public abstract void trueKind();
+	public abstract void falseKind();
+}
+
+
+public class Test implements PaTest {
+     private String name; 
+     private int age;
+     
+     public Test(){}
+     public Test(String name, int age) {
+    	 this.name= name; this.age= age;
+     }
+}

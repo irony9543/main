@@ -1,0 +1,18 @@
+package conex;
+
+public class MainEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Main{
+	int x;//자동초기화값:0
+	
+	public Main(){
+		x= 5;
+	}
+}

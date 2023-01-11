@@ -1,0 +1,22 @@
+package conex;
+
+public class SubEx {
+
+	public static void main(String[] args) {
+
+	  Sub s1= new Sub();
+	  System.out.println(s1);
+		
+		
+	}
+
+}
+
+class Sub {
+     int x;
+     
+     public Sub() {
+    	 
+     }
+ 
+}

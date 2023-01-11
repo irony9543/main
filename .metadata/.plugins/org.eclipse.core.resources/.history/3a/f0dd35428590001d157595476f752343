@@ -1,0 +1,36 @@
+package interfaceEx;
+
+interface PaTest{
+	public static final String KIND= "사람";
+	public abstract void trueKind();
+	public abstract void falseKind();
+}
+public class Test implements PaTest {
+     private String name; 
+     private int age;
+     
+     public Test(){}
+     public Test(String name, int age) {
+    	 this.name= name; this.age= age;
+     }
+     
+     public void setName(String name) {this.name= name;}
+     public String getName() {return name;}
+     public void setAge(int age) {this.age= age;}
+     public int getAge() {return age;}
+     
+     public void trueKind() {
+    	 System.out.println(KIND+ "입니다.");
+     }
+	public void falseKind() {
+		System.out.println(KIND+ "이 아닙니다.");		
+	}
+     public static void main(String[] args) {
+    	 PaTest pt= new Test();
+					
+    	 int age= 500;
+    	 String name= "홍길동";
+    	 System.out.println("이름: "+name+",나이: "+age+"살");
+     }
+     
+}

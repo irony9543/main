@@ -1,0 +1,23 @@
+package generic_003_method1;
+
+public class Test<I, S> {
+
+	 I i;
+	 S s;
+	 
+	public Integer getI() {
+		return i;
+	}
+	public void setI(Integer i) {
+		this.i = i;
+	}
+	public String getS() {
+		return s;
+	}
+	public void setS(String s) {
+		this.s = s;
+	}
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package generic_000_yes;
+
+public class BoxExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

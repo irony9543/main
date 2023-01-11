@@ -1,0 +1,22 @@
+package conex;
+
+public class Point06Ex {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Point06 {
+     int x;
+     int y;
+     
+     public Point06() {
+    	 System.out.println("매개 변수가 없는 디폴트 생성자");
+     }
+     public void showPoint() {
+    	 System.out.println(x+", "+y);
+     }
+  
+}
